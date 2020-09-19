@@ -1,4 +1,4 @@
-class persona {
+class persona {//clase que va a ejecutar un metodo, llamado constructor.
     constructor(nombre, apellido,altura){
         this.nombre = nombre
         this.apellido = apellido
@@ -31,5 +31,5 @@ class desarrollador extends persona {
 
 var jose = new persona('Jose','Morales',1.80)
 // var erika = new persona('Erika','Luna',1.90)
-// var arturo = new persona('Arturo','Melendez',1.60)
+var arturo = new desarrollador('Arturo','Melendez',1.60)
 
